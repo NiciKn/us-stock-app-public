@@ -11,3 +11,4 @@ Public repository to fetch the us-stock-app docker image
 - Type in API key at front page and push "login"
 - Update database at page "Update" (takes one hour)
 - Start analyzing stocks
+- You can find your saved files under "/workdir/user_data"
