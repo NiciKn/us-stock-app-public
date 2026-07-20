@@ -1,0 +1,11 @@
+services:
+  streamlit:
+    build: .
+    volumes:
+      - ./user_data:/app/user_data
+    ports:
+      - "8501:8501"
+    environment:
+      - FAVORITE_THING=Avocado
+    image: knnici/us-stock-app:0.2
+    container_name: us-stock-app
